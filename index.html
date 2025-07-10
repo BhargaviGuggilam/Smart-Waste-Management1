@@ -1,0 +1,42 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Smart Waste Management</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <header>
+            <div class="navbar">
+            <div class="logo">"Smart Waste Management"</div>
+            <div class="nav-links">
+            <a href="./index.html">Citizen</a>
+            <a href="./Admin.html">Admin</a>
+            <a href="./Collector.html">Collector</a>
+            </div>
+            </div>
+            
+        </header>
+
+        <br><br><br><br><br>
+        <div class="form-container">
+    <h2>Submit a Garbage Complaint</h2>
+    <form id="complaintForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="text" id="location" placeholder="Location" required />
+      <textarea id="description" placeholder="Describe the issue" required></textarea>
+      <input type="file" id="image" />
+      <button type="submit">Submit Complaint</button>
+    </form>
+  </div>
+
+  <div class="form-container">
+    <h2>Request Waste Pickup</h2>
+    <form id="pickupForm">
+      <input type="text" id="pickupLocation" placeholder="Pickup Location" required />
+      <input type="text" id="pickupTime" placeholder="Preferred Time" required />
+      <button type="submit">Request Pickup</button>
+    </form>
+  </div>
+    </body>
+</html>
